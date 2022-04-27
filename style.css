@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background-image: url("Image2.jpg");
+    padding: 50px;
+}
+
+.box {
+    background-image: url("Image2.jpg");
+    width: 58rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+input[type=text],
+input[type=password],
+input[type=phone],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 2rem;
+}
+
+div {
+    padding: 10px 0;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.addr {
+    border: 0px;
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.addr td {
+    padding: 0px 20px;
+}
+
+table {
+    border: 2px solid #000;
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: 10px;
+}
+
+.registerbtn {
+    background-color: #1c72c2;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+#board1,
+#per1,
+#divs1,
+#board2,
+#per2,
+#divs2,
+#board3,
+#per3,
+#divs3 {
+    padding: 10px;
+    width: 90%;
+}
+
+.registerbtn {
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #360dec;
+    color: rgb(207, 195, 195);
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+}
+
+.registerbtn:hover {
+    background-color: rgb(8, 235, 102);
+    color: white;
+}
+
+#sign {
+    margin-left: 470px;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> Registration </title>
+</head>
+
+<body>
+    <form name="regd" action="index.jsp" enctype="multipart/form-data">
+        <div class="box">
+            <div class="container">
+                <center>
+                    <h1>Application Form</h1>
+                </center>
+                <hr>
+                <center>
+                    <h2><u>User Details</u></h2>
+                </center>
+                <b><label>Name: </label></b>
+                <input type="text" name="data" placeholder="Enter name" size="15" />
+                <b><label>Contact Number :</label></b>
+                <input type="phone" name="data" placeholder="Enter contact no." size="10" />
+                <b><label for="email">Email :</label></b>
+                <input type="email" placeholder="Enter Email" name="data">
+                <br><br>
+                <b><label for="dob">Date of Birth :</label></b>&nbsp;&nbsp;
+                <input type="date" placeholder="Enter DOB" name="data">
+                <br>
+                <br>
+                <div>
+                    <b><label>Gender :</label></b>
+                    <br>
+                    <br>
+                    <input type="radio" value="Male" name="data" checked> Male
+                    <input type="radio" value="Female" name="data"> Female
+                    <input type="radio" value="Others" name="data"> Others
+                </div>
+                <br>
+                <center>
+                    <h2><u>Address Details</u></h2>
+                </center>
+                <b><label for="paddress">Present Address :</label></b>
+                <table class="addr">
+                    <tr>
+                        <td>
+                            <input id="at" type="text" name="data" placeholder="At">
+                        </td>
+                        <td>
+                            <input id="post" type="text" name="data" placeholder="Post">
+                        </td>
+                        <td>
+                            <input id="dist" type="text" name="data" placeholder="District">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="st" type="text" name="data" placeholder="State">
+                        </td>
+                        <td>
+                            <input id="pin" type="text" name="data" placeholder="Pin">
+                        </td>
+                        <td>
+                            <input id="ph" type="text" name="data" placeholder="Phone No.">
+                        </td>
+                    </tr>
+                </table>
+                <b><label for="caddress">Communication Address :</label></b>
+                <table class="addr">
+                    <tr>
+                        <td>
+                            <input id="cat" type="text" name="data" placeholder="At">
+                        </td>
+                        <td>
+                            <input id="cpost" type="text" name="data" placeholder="Post">
+                        </td>
+                        <td>
+                            <input id="cdist" type="text" name="data" placeholder="District">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="cst" type="text" name="data" placeholder="State">
+                        </td>
+                        <td>
+                            <input id="cpin" type="text" name="data" placeholder="Pin">
+                        </td>
+                        <td>
+                            <input id="cph" type="text" name="data" placeholder="Phone No.">
+                        </td>
+                    </tr>
+                </table>
+                <center>
+                    <h2><u>Educational Details</u></h2>
+                </center>
+
+                <table>
+                    <tr>
+                        <td>
+                            <b><label for="exam">Exam</label></b>
+                        </td>
+                        <td>
+                            <b><center><label for="board">Board/University</label></center></b>
+                        </td>
+                        <td>
+                            <b><center><label for="per">Percentage/CGPA</label></center></b>
+                        </td>
+                        <td>
+                            <b><center><label for="divs">Division</label></center></b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b><label for="exam1">Matriculation(10th)</label></b>
+                        </td>
+                        <td>
+                            <input id="board1" type="text" name="data">
+                        </td>
+                        <td>
+                            <input id="per1" type="text" name="data">
+                        </td>
+                        <td>
+                            <input id="divs1" type="text" name="data">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b><label for="exam2">Intermediate(12th)</label></b>
+                        </td>
+                        <td>
+                            <input id="board2" type="text" name="data">
+                        </td>
+                        <td>
+                            <input id="per2" type="text" name="data">
+                        </td>
+                        <td>
+                            <input id="divs2" type="text" name="data">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b><label for="exam3">BTech</label></b>
+                        </td>
+                        <td>
+                            <input id="board3" type="text" name="data">
+                        </td>
+                        <td>
+                            <input id="per3" type="text" name="data">
+                        </td>
+                        <td>
+                            <input id="divs3" type="text" name="data">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <div>
+                    <b><label for="photo">Upload Photo :</label></b>
+                    <input type="file" id="pic" name="pic" value="Resume">
+                </div>
+                <div>
+                    <b><label for="sign">Upload Signature :</label></b>
+                    <input type="file" id="sig" name="sign" value="Resume">
+                </div>
+                <div>
+                    <input type="checkbox" id="dec" name="declaration" value="dec" name="data">
+                    <label for="dec">I hereby declare that the above particulars of facts and information stated are correct to the best of my belief and knowledge. All the facts in this resume are correct and truthful. I hereby declare that all the facts mentioned above are accurate, and I take full responsibility for their accuracy.</label>
+                </div>
+                <button type="submit" class="registerbtn">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
